@@ -9,3 +9,5 @@ Update private input module with: `git submodule update --init --remote --recurs
 * [Day 3](Day03.ipynb). Quick and dirty solution for Part 1, more refined greedy sequence search for Part 2 (that can also solve Part 1).
 
 * [Day 4](Day04.ipynb). First map of 2025 (and first visualisation)! Solved with `numpy` array operations (I could probably speed this up by using a dictionary of positions and neighbors instead of the full map, but it's fast enough if I simply ignore the empty positions).
+
+* [Day 5](Day05.ipynb). Overlapping intervals. Part 2 is very similar to AOC 2016 Day 20, I almost entirely recycled that code to prune and merge the overlapping intervals.
