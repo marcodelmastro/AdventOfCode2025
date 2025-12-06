@@ -11,3 +11,5 @@ Update private input module with: `git submodule update --init --remote --recurs
 * [Day 4](Day04.ipynb). First map of 2025 (and first visualisation)! Solved with `numpy` array operations (I could probably speed this up by using a dictionary of positions and neighbors instead of the full map, but it's fast enough if I simply ignore the empty positions).
 
 * [Day 5](Day05.ipynb). Overlapping intervals. Part 2 is very similar to AOC 2016 Day 20, I almost entirely recycled that code to prune and merge the overlapping intervals.
+
+* [Day 6](Day06.ipynb). Matrix rotation and flipping with `numpy`. Part 2 was fun, using string to reconstitue values after rotation, catching str->int conversion to deal with empty lines.
