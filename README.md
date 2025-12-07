@@ -13,3 +13,5 @@ Update private input module with: `git submodule update --init --remote --recurs
 * [Day 5](Day05.ipynb). Overlapping intervals. Part 2 is very similar to AOC 2016 Day 20, I almost entirely recycled that code to prune and merge the overlapping intervals.
 
 * [Day 6](Day06.ipynb). Matrix rotation and flipping with `numpy`. Part 2 was fun, using string to reconstitue values after rotation, catching str->int conversion to deal with empty lines.
+
+* [Day 7](Day07.ipynb). Another map! Used `set()` for part 1 to deal with overlapping beams, moved to `defaultdict(int)` in part 2 to count beams in same position (it's lanternfish day!). The two solutions could easily be integrated, but ehi it's Sunday morning ;-)
