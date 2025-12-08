@@ -15,3 +15,5 @@ Update private input module with: `git submodule update --init --remote --recurs
 * [Day 6](Day06.ipynb). Matrix rotation and flipping with `numpy`. Part 2 was fun, using string to reconstitue values after rotation, catching str->int conversion to deal with empty lines.
 
 * [Day 7](Day07.ipynb). Another map! Used `set()` for part 1 to deal with overlapping beams, moved to `defaultdict(int)` in part 2 to count beams in same position (it's lanternfish day!). The two solutions could easily be integrated, but ehi it's Sunday morning ;-)
+
+* [Day 8](Day08.ipynb). First really challenging day. Things learned: objects in dictionary and list are references, can be updated on the fly; result of set operations are new set, thus update of original container needed. `list.remove()` is pretty convenient (while not necessarely the most efficient approach)
