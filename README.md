@@ -18,4 +18,4 @@ Update private input module with: `git submodule update --init --remote --recurs
 
 * [Day 8](Day08.ipynb). First really challenging day. Things learned: objects in dictionary and list are references, can be updated on the fly; result of set operations are new set, thus update of original container needed. `list.remove()` is pretty convenient (while not necessarely the most efficient approach)
 
-* [Day 9](Day09.ipynb). Hardest day so far. Part 1 was trivial, Part 2 required to handle various edge cases and a peculiar input! Used a combination of ray casting and edge crossin detection. 
+* [Day 9](Day09.ipynb). Hardest day so far. Part 1 was trivial, Part 2 required to handle various edge cases and a peculiar input! Used a combination of ray casting and edge crossing detection. 
