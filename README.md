@@ -24,7 +24,7 @@ Update private input module with: `git submodule update --init --remote --recurs
 
 * [Day 11](Day11.ipynb). Finally the graph problem! Using `networkx` to simplify all graph basic operations (find paths, topological sorting). Part 1 with `networkx` is trivial, but I ended up implemented a path counting approach based on dinamic programming that speed up considerably Part 1, and is compulsory to approach Part 2.
 
-* [Day 12](Day12.ipynb). Jigsaw/Tetris-like puzzle to solve. I implemented a backtracking solution that can find solutions rather fast if a solution exisit, but takes a lot of time to explore the full phase space in case it does not exist. My quick and dirty solution was to cut seaches that takes too long, and it worked! I'll work on possible optimisation and pruning options another time...
+* [Day 12](Day12.ipynb). Jigsaw/Tetris-like puzzle to solve. I implemented a backtracking solution that can find solutions rather fast if a solution exisit, but takes a lot of time to explore the full phase space in case it does not exist. My quick and dirty solution was to cut seaches that takes too long, and it worked! And there was a simple optimisation: simply checking whether there's enough space for the tiles (damn, Eric!)...
 
 ![24 stars](./AOC2025_24stars.PNG "24 stars")
 ![2025 calendar](./AOC2025_calendar.PNG "2025 calendar")
